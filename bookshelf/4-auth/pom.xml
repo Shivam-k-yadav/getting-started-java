@@ -46,7 +46,7 @@ Copyright 2016 Google Inc.
     <bookshelf.bucket>${projectID}</bookshelf.bucket> <!-- bucket w/o gs:// -->
 
 <!-- [START auth] -->
-    <callback.host></callback.host> <!-- Typically projectname.appspot.com -->
+    <callback.host>java-bookshelf-app-204117.appspot.com</callback.host> <!-- Typically projectname.appspot.com -->
     <bookshelf.clientID></bookshelf.clientID>             <!-- for User Authentication -->
     <bookshelf.clientSecret></bookshelf.clientSecret> <!-- from g.co/cloud/console -->
     <!-- Register in g.co/cloud/console -->
