@@ -46,9 +46,9 @@ Copyright 2016 Google Inc.
     <bookshelf.bucket>${projectID}</bookshelf.bucket> <!-- bucket w/o gs:// -->
 
 <!-- [START auth] -->
-    <callback.host></callback.host> <!-- Typically projectname.appspot.com -->
-    <bookshelf.clientID></bookshelf.clientID>             <!-- for User Authentication -->
-    <bookshelf.clientSecret></bookshelf.clientSecret> <!-- from g.co/cloud/console -->
+    <callback.host>java-bookshelf-app-204117.appspot.com</callback.host> <!-- Typically projectname.appspot.com -->
+    <bookshelf.clientID>367616931271-ea9f65q4kdqrcki03i07gsaijh6epk73.apps.googleusercontent.com</bookshelf.clientID>             <!-- for User Authentication -->
+    <bookshelf.clientSecret>fEP1B3BESktHSe2XPtTDwZ7I</bookshelf.clientSecret> <!-- from g.co/cloud/console -->
     <!-- Register in g.co/cloud/console -->
     <bookshelf.callback>https://${callback.host}/oauth2callback</bookshelf.callback>
 <!-- [END auth] -->
